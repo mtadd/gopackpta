@@ -7,7 +7,7 @@ title: All Posts
     {% for post in site.posts %}
     <li>
         <span>{{ post.date | date_to_string }}</span> &gt; 
-        <a href="{{ post.url prepend:site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
