@@ -1,2 +1,4 @@
 name: Brassfield PTA
 markdown: kramdown
+
+baseurl: /gopackpta
